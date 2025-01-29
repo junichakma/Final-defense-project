@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <servlet>
+        <servlet-name>User_reg</servlet-name>
+        <servlet-class>Action.User_register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>User_reg</servlet-name>
+        <url-pattern>/user_reg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Hospital_reg</servlet-name>
+        <servlet-class>Action.Hospital_register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hospital_reg</servlet-name>
+        <url-pattern>/hospital_reg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Supplier_register</servlet-name>
+        <servlet-class>Action.Supplier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Supplier_register</servlet-name>
+        <url-pattern>/supplier_reg</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
