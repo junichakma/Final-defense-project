@@ -1,1 +1,2 @@
 # Final-defense-project
+For our final defense, my team and I developed a project based on an oxygen cylinder management system. This system provides access to essential medical tools and equipment, including oxygen cylinders. We came up with this idea in response to the COVID-19 pandemic, during which many patients lost their lives due to a shortage of medical supplies like oxygen cylinders. This project is one of the key demonstrations for our final defense.
